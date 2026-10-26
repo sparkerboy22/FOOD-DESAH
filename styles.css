@@ -18,7 +18,7 @@ img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 
-/* ---------- Buttons ---------- */
+
 .btn {
   display: inline-block;
   padding: 10px 28px;
@@ -35,7 +35,7 @@ ul { list-style: none; }
 .btn-outline:hover { background: var(--orange); color: #fff; }
 .btn.small { padding: 7px 20px; font-size: 12px; }
 
-/* ---------- Navbar ---------- */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -67,7 +67,7 @@ ul { list-style: none; }
   border: 2px solid var(--orange);
 }
 
-/* ---------- Hero ---------- */
+
 .hero {
   background: var(--peach);
   display: flex;
@@ -95,7 +95,7 @@ ul { list-style: none; }
   filter: drop-shadow(0 20px 30px rgba(255,107,10,.25));
 }
 
-/* ---------- Features ---------- */
+
 .features {
   display: flex;
   justify-content: space-between;
@@ -113,7 +113,7 @@ ul { list-style: none; }
 .feature h4 { font-size: 15px; color: var(--orange); }
 .feature p { font-size: 11px; color: var(--gray); }
 
-/* ---------- Best Delivered ---------- */
+
 .best { padding: 80px 8% 50px; }
 .section-head {
   display: flex;
@@ -139,7 +139,7 @@ ul { list-style: none; }
 .best-item h3 { font-size: 15px; margin-top: 18px; font-weight: 600; }
 .best-item a { color: var(--orange); font-size: 12px; font-weight: 600; }
 
-/* Dish image inside dashed orange ring */
+
 .dish-circle {
   width: 150px; height: 150px;
   margin: 0 auto;
@@ -159,7 +159,7 @@ ul { list-style: none; }
   margin-bottom: 14px;
 }
 
-/* ---------- Category strip ---------- */
+
 .strip {
   display: flex;
   gap: 50px;
@@ -173,7 +173,7 @@ ul { list-style: none; }
 }
 .strip span { flex-shrink: 0; }
 
-/* ---------- Regular menu ---------- */
+
 .menu { padding: 0 8% 70px; }
 .menu-head { display: flex; justify-content: space-between; align-items: flex-start; }
 .menu-head p { font-size: 11px; color: var(--gray); margin-top: 8px; }
@@ -211,7 +211,7 @@ ul { list-style: none; }
 }
 .price-row button:hover { background: #e55a00; }
 
-/* ---------- Offers ---------- */
+
 .offers {
   display: flex;
   gap: 20px;
@@ -226,7 +226,7 @@ ul { list-style: none; }
   object-fit: cover;
 }
 
-/* ---------- Footer ---------- */
+
 footer {
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr 1.2fr;
