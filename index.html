@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Dash - Indian Food Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <a href="#" class="logo">Food <span>Dash</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#footer">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">🔍</button>
+      <img class="avatar" src="./Ellipse 1.png" alt="User">
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1><b>Quick</b> and <span>Tasty</span> Food Delivered with a <span>Dash of</span> Speed</h1>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-fill">Order Now</a>
+        <a href="#" class="btn btn-outline">Track Order</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="./f1.png" alt="Indian thali">
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="feature">
+      <img src="./fast-delivery 1.png" alt="Fast delivery">
+      <div>
+        <h4>Fast Delivery</h4>
+        <p>Properly Tin Delivery Within 30 Mins.</p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="./fresh (1) 1.png" alt="Fresh food">
+      <div>
+        <h4>Fresh Food</h4>
+        <p>Your Food Will Be Delivered Under Them To Your Home.</p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="./box 1.png" alt="Free delivery">
+      <div>
+        <h4>Free Delivery</h4>
+        <p>Free Delivery Is Available First 3rd Own Click Order.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST DELIVERED -->
+  <section class="best">
+    <div class="section-head">
+      <h2>Our <span>Best Delivered</span><br>Indian Dish</h2>
+      <p>It's We Care About Bringing You Good Food From Restaurants, We Deliver You Experience.</p>
+    </div>
+    <div class="best-grid">
+      <div class="best-item">
+        <div class="dish-circle"><img src="./f2.png" alt="Indian Vegetable Pulao"></div>
+        <h3>Indian Vegetable Pulao</h3>
+        <a href="#">Order Now &gt;</a>
+      </div>
+      <div class="best-item">
+        <div class="dish-circle"><img src="./f3.png" alt="Paneer Bhuna Masala"></div>
+        <h3>Paneer Bhuna Masala</h3>
+        <a href="#">Order Now &gt;</a>
+      </div>
+      <div class="best-item">
+        <div class="dish-circle"><img src="./f4.png" alt="Vermicelli Upma"></div>
+        <h3>Vermicelli Upma</h3>
+        <a href="#">Order Now &gt;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY STRIP -->
+  <div class="strip">
+    <span>+ Rajasthan</span>
+    <span>+ South Indian</span>
+    <span>+ Gujarat</span>
+    <span>+ Maharashtra</span>
+    <span>+ West Bengal</span>
+  </div>
+
+  <!-- REGULAR MENU -->
+  <section class="menu" id="menu">
+    <div class="menu-head">
+      <div>
+        <h2>Our <span>Regular</span> Menu</h2>
+        <p>There Are Our Biggest Menus<br>You Love Order With Us</p>
+      </div>
+      <a href="#" class="btn btn-fill small">See All</a>
+    </div>
+
+    <div class="menu-grid">
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f5.png" alt="Angoori Rasmalai"></div>
+        <small>Indian Dessert</small>
+        <h4>Angoori Rasmalai</h4>
+        <div class="stars">★★★★★ <em>(222)</em></div>
+        <div class="price-row"><strong>₹250</strong><button>Buy Now</button></div>
+      </div>
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f6.png" alt="Tea Time Snacks"></div>
+        <small>Indian Tea Time</small>
+        <h4>Snacks</h4>
+        <div class="stars">★★★★☆ <em>(165)</em></div>
+        <div class="price-row"><strong>₹250</strong><button>Buy Now</button></div>
+      </div>
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f7.png" alt="Tea Time Snacks"></div>
+        <small>Indian Tea</small>
+        <h4>Time Snacks</h4>
+        <div class="stars">★★★★★ <em>(98)</em></div>
+        <div class="price-row"><strong>₹200</strong><button>Buy Now</button></div>
+      </div>
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f8.png" alt="Masala Dosa"></div>
+        <small>South Indian</small>
+        <h4>Masala Dosa</h4>
+        <div class="stars">★★★★★ <em>(412)</em></div>
+        <div class="price-row"><strong>₹150</strong><button>Buy Now</button></div>
+      </div>
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f9.png" alt="Pav Bhaji"></div>
+        <small>Gujarat</small>
+        <h4>Pav Bhaji</h4>
+        <div class="stars">★★★★☆ <em>(187)</em></div>
+        <div class="price-row"><strong>₹250</strong><button>Buy Now</button></div>
+      </div>
+      <div class="card">
+        <div class="dish-circle sm"><img src="./f9.png" alt="Dal Baati Churma"></div>
+        <small>Rajasthan</small>
+        <h4>Dal Baati Churma</h4>
+        <div class="stars">★★★★★ <em>(76)</em></div>
+        <div class="price-row"><strong>₹450</strong><button>Buy Now</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="offers" id="offers">
+    <div class="offer-left">
+      <img src="./Indian 1.png" alt="Indian Special coupon code FOODDASH60 - 60% off">
+    </div>
+    <div class="offer-right">
+      <img src="./Hendles 1.png" alt="25% off special offer - South Indian food">
+      <img src="./7296959 1.png" alt="Indian Restaurant - special offer only today">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-brand">
+      <a href="#" class="logo">Food <span>Dash</span></a>
+      <p>Food Dash ©2026. All Right Reserved.</p>
+      <p>+91 123 456 7890</p>
+      <h5>Follow Us On</h5>
+      <div class="socials"><span>f</span><span>in</span><span>t</span><span>◎</span></div>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <a href="#">Home</a><a href="#">Offers</a><a href="#">Service</a><a href="#">About Us</a>
+    </div>
+    <div class="footer-col">
+      <h4>Information</h4>
+      <a href="#">Menu</a><a href="#">Our Fly</a><a href="#">Make It Choice</a><a href="#">Fast Delivery</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">+1234567891</a>
+      <a href="#">English</a>
+      <a href="#">info@fooddash.com</a>
+      <a href="#">12, Maharashtra, Indian</a>
+    </div>
+  </footer>
+
 </body>
 </html>
